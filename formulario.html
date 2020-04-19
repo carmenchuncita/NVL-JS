@@ -1,0 +1,48 @@
+<form method="post" action="miservidor.php">
+    <div>
+      <label for=”CP”>Código Postal</label>
+      <input id=”nombre” type=”text”>
+    </div>
+    <div>
+        <label for=”satisfacción”>Índice de satisfacción:</label>       
+        <select id=satisfacción>
+          <option value=”1”>1</option>
+          <option value=”2”>2</option>
+          <option value=”3”>3</option>
+          <option value=”4”>4</option>
+          <option value=”5”>5</option>
+        </select>
+    </div>
+    <div>
+        <label for=”mail”>Email</label>
+        <input type="email" name="mail" placeholder="Ej.: usuario@servidor.com">
+    </div>
+    <div>
+      <label for=”positivos”>Puntos Positivos:</label>
+      <input id=”positivos” type=”text”>
+    </div>
+    <div>
+        <label for=”negativos”>Puntos Negativos:</label>
+        <input id=”negativos” type=”text”>
+     </div>
+    
+   <div>
+      <label for=”calidad”>Calidad del producto:</label>
+      <select id=”calidad”>
+        <option value=”A”>Excelente</option>
+        <option value=”B”>Bueno</option>
+        <option value=”C”>Regular</option>
+        <option value=”D”>Pésimo</option>
+      </select>
+  </div>
+  <div>
+      <label for=”calidad2”>Satisfacción:</label>
+      <input name=”calidad2” type=”radio” value=”A”>Excelente       
+      <input name=”calidad2” type=”radio” value=”B”>Bueno
+      <input name=”calidad2” type=”radio” value=”C”>Regular
+      <input name=”calidad2” type=”radio” value=”D”>Malo
+  </div>
+  
+  
+  <input type=”submit” value=”Enviar”>
+</form>
